@@ -2,7 +2,7 @@
 const express   = require('express');
 const cors      = require('cors');
 const mysql     = require('mysql2');
-//const dotenv = require('dotenv').config();
+const dotenv = require('dotenv').config();
 
 const app = express();
 const PORT = process.env.PORT;
